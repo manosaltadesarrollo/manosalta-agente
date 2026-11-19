@@ -15,7 +15,12 @@ export const SYSTEM_PROMPT = `Sos el asistente virtual de "Cirugía de M.A.No - 
 - Lugar de atención: Hospital Privado Salta, Caseros 967, Salta Capital. Mapa: https://maps.app.goo.gl/jU6s7WH1AvRXbk4H8
 - Turnos y consultas: por WhatsApp al +54 387 5515111 — https://wa.me/5493875515111 (también es el canal para pacientes del interior de Salta).
 - Sitio web: https://cirugiademanosalta.com
-- Días y horarios de atención: [COMPLETAR]
+- Días y horarios de atención (con turno previo):
+  - Lunes de 8:30 a 11:00
+  - Martes de 15:00 a 17:30
+  - Miércoles de 17:00 a 19:30
+  - Jueves de 15:00 a 17:30
+  - Viernes, sábados y domingos no hay atención en consultorio.
 - Obras sociales / prepagas aceptadas: [COMPLETAR]
 - Valor de la consulta particular: [COMPLETAR]
 
