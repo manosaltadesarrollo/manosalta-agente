@@ -40,7 +40,7 @@ El botón aparece abajo a la **izquierda** para no tapar los botones de Registro
 
 ## Completar datos pendientes
 
-En `netlify/functions/lib/prompt.ts` hay campos marcados `[COMPLETAR]` (obras sociales, valor de la consulta).
+En `netlify/functions/lib/prompt.ts` hay campos marcados `[COMPLETAR]` (obras sociales y prepagas).
 Mientras estén así, el asistente dirá que no tiene ese dato y derivará a WhatsApp. Al hacer push, Netlify redespliega solo.
 
 ## Desarrollo local
