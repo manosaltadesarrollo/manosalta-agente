@@ -43,6 +43,10 @@ El botón aparece abajo a la **izquierda** para no tapar los botones de Registro
 Horarios, valor de la consulta, obras sociales y demás datos están en `netlify/functions/lib/prompt.ts`.
 Al editarlo y hacer push, Netlify redespliega solo.
 
+> **Importante:** el plan gratuito de Netlify solo publica cambios de repositorios privados cuando el autor del commit
+> es un miembro verificado del equipo. Los commits tienen que estar firmados por la cuenta de GitHub `manosaltadesarrollo`;
+> si no, el deploy falla con *"Build blocked: Unrecognized Git contributor"*.
+
 ## Desarrollo local
 
 ```bash
