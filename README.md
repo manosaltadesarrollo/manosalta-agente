@@ -38,10 +38,10 @@ En el repositorio `manosaltadesarrollo.github.io`, pegá antes de `</body>` en `
 
 El botón aparece abajo a la **izquierda** para no tapar los botones de Registro y Ateneos. Para moverlo a la derecha, agregá `data-position="right"`.
 
-## Completar datos pendientes
+## Actualizar datos del consultorio
 
-En `netlify/functions/lib/prompt.ts` hay campos marcados `[COMPLETAR]` (obras sociales y prepagas).
-Mientras estén así, el asistente dirá que no tiene ese dato y derivará a WhatsApp. Al hacer push, Netlify redespliega solo.
+Horarios, valor de la consulta, obras sociales y demás datos están en `netlify/functions/lib/prompt.ts`.
+Al editarlo y hacer push, Netlify redespliega solo.
 
 ## Desarrollo local
 
