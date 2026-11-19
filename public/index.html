@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asistente M.A.No — prueba</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    body { margin: 0; padding: 40px 16px; font: 16px/1.5 system-ui, sans-serif; color: #2b1d45; background: #fbf9fe; }
+    main { max-width: 640px; margin: 0 auto; }
+    code { background: #efe7fa; padding: 2px 6px; border-radius: 6px; font-size: 14px; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Asistente M.A.No</h1>
+    <p>Página de prueba del chat para pacientes. Usá el botón 💬 abajo a la izquierda.</p>
+    <p>Para agregarlo al sitio, pegá esta línea antes de <code>&lt;/body&gt;</code>:</p>
+    <p><code id="snippet"></code></p>
+  </main>
+  <script>
+    document.getElementById("snippet").textContent =
+      '<script src="' + location.origin + '/chat-widget.js" defer><\/script>';
+  </script>
+  <script src="/chat-widget.js" defer></script>
+</body>
+</html>

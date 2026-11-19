@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+
+[functions]
+  node_bundler = "esbuild"
+
+# El widget se puede cargar desde otros dominios (cirugiademanosalta.com)
+[[headers]]
+  for = "/chat-widget.js"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=300"
